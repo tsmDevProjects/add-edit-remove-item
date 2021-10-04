@@ -20,7 +20,7 @@ const Mains = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name) {
-      showAlert(true, "info", "Por favor preencha o campo 🤔");
+      showAlert(true, "info", "Por favor preencha o campo 😇");
     } else if (name && isEditing) {
       setList(
         list.map((item) => {
